@@ -41,6 +41,11 @@ function toggleMenuMobile() {
                     >
                   Paket Kelas
                 </RouterLink>
+                <RouterLink
+                  to="/AbouthMe"
+                  class="transition-transform text-neutral-100 hover:text-amber-300 hover:scale-110">
+                  About Me
+                </RouterLink>
 
             </div>
             <div>
@@ -84,6 +89,9 @@ function toggleMenuMobile() {
           </RouterLink>
           <RouterLink to="/Daftar" class="block pb-2 text-stone-300 hover:text-amber-300 border-b border-stone-800 transition-colors">
             Log In
+          </RouterLink>
+          <RouterLink to="/AbouthMe" class="block pb-2 text-stone-300 hover:text-amber-300 border-b border-stone-800 transition-colors">
+            Abouth Me
           </RouterLink>
         </div>
       </div>
