@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --font-RedHat : "Red Hat Display", sans-serif;
+    --font-RobotoMono : "Roboto Mono", monospace;
+    --font-Spirax : "Spirax", system-ui;
+    --font-Annie : "Annie Use Your Telescope", cursive;
+    --font-Reenie : "Reenie Beanie", cursive;
+    --font-RubikB : "Rubik Broken Fax", system-ui;
+}
